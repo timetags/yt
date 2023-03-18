@@ -1,0 +1,105 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Tahoma', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea, a {
+    font-family: inherit;
+    font-size: 16px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#urlGroup {
+    display: flex;
+}
+
+#txtVideoURL {
+    flex: 1;
+}
+
+#error {
+    display: none;
+    color: brown;
+    text-align: center;
+}
+
+#tabVisualEditor {
+    display: none;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+#tabTxtEditor {
+    display: none;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+#btnNewTag {
+    width: 37%;
+}
+#btnPlaybackSpeed {
+    width: 14%;
+}
+#btnTxtEditor {
+    width: 49%;
+}
+.row {
+    display: flex;
+}
+
+input[type="radio"] {
+    margin-top: 0;
+}
+
+.txtDescription {
+    flex: 1;
+}
+
+.time {
+    color: blue;
+    text-decoration: none;
+    margin-right: 4px;
+    min-width: 60px;
+    text-align: right;
+}
+
+.txtDescription {
+    border: none;
+    outline: none;
+}
+
+#btnMoveGroup {
+    display: none;
+}
+
+#btnMoveGroup input {
+    width: 20%;
+}
+
+#btnVisualEditor {
+    width: 100%;
+}
+
+#txtEditor {
+    flex-grow: 1;
+    width: 100%;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+#rows {
+    overflow-y: scroll;
+    flex-grow: 1;
+    height: 0;
+    min-height: 99px;
+}
